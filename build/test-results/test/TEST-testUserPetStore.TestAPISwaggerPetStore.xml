@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testUserPetStore.TestAPISwaggerPetStore" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T21:09:35" hostname="DESKTOP-PQ2APH8" time="3.129">
+  <properties/>
+  <testcase name="userDeletePetStoreTest" classname="testUserPetStore.TestAPISwaggerPetStore" time="3.129"/>
+  <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/user/Max
+Headers:		api_key=123654
+				Accept=*/*
+				Content-Type=application/json
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Aug 2021 21:11:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Max"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/user/Alf
+Headers:		api_key=123654
+				Accept=*/*
+				Content-Type=application/json
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Aug 2021 21:11:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Alf"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

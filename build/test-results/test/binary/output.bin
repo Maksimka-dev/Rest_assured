@@ -1,0 +1,42 @@
+Request method:	DELETE
+6Request URI:	https://petstore.swagger.io/v2/user/Max
+Headers:		api_key=123654
+				Accept=*/*
+#				Content-Type=application/json
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Thu, 26 Aug 2021 21:11:29 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Max"
+}
+Request method:	DELETE
+6Request URI:	https://petstore.swagger.io/v2/user/Alf
+Headers:		api_key=123654
+				Accept=*/*
+#				Content-Type=application/json
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Thu, 26 Aug 2021 21:11:30 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Alf"
+}
